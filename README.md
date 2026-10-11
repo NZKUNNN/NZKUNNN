@@ -18,6 +18,9 @@
   - [开源商城后台业务模块学习（运营视角）](./project-demo/mall-system-note.md)
 - 📊 数据实操项目 ad-report-analysis
   - [亚马逊广告报表自动化分析项目](./ad-report-analysis/README.md)
+- 📈 竞品数据分析 amazon-competitor-analysis
+  - [亚马逊竞品Listing数据分析项目](./amazon-competitor-analysis/README.md)
+
 
 ## 🛠️ 技能清单
 ✅ 电商业务：亚马逊Listing、A9算法、FBA、账户健康、广告指标ACoS/CTR/CVR、竞品调研、B2B/B2C/C2C业务逻辑
