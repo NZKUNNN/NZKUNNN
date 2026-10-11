@@ -20,6 +20,8 @@
 - [电商业务知识（B2B/C2C/B2C）](./learn-notes/e-commerce-business.md)
 - [电商转化漏斗 & RFM用户分层复盘](./project-demo/ecommerce-funnel.md)
 - [开源商城业务模块学习笔记](./project-demo/mall-system-note.md)
+- [亚马逊广告报表自动化数据分析项目](./ad-report-analysis/README.md)
+
 
 ## ✨ 自我介绍
 原工程技术管理岗位，具备项目统筹、风险识别、成本复盘经验。
