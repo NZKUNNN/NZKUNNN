@@ -20,7 +20,8 @@
   - [亚马逊广告报表自动化分析项目](./ad-report-analysis/README.md)
 - 📈 竞品数据分析 amazon-competitor-analysis
   - [亚马逊竞品Listing数据分析项目](./amazon-competitor-analysis/README.md)
-[亚马逊FBA库存预警分析项目](./amazon-fba-inventory-warn)
+- 📦 FBA库存预警 amazon-fba-inventory-warn
+  - [亚马逊FBA库存预警分析项目](./amazon-fba-inventory-warn/README.md)
 
 ## 🛠️ 技能清单
 ✅ 电商业务：亚马逊Listing、A9算法、FBA、账户健康、广告指标ACoS/CTR/CVR、竞品调研、B2B/B2C/C2C业务逻辑
