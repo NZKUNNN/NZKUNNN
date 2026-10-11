@@ -25,7 +25,6 @@ Python, pandas，基础CSV数据处理
 ```
 ## 📋 脚本运行输出示例
 ```
-
 ==== 广告报表汇总结果 ====
 CampaignName  Impressions  Clicks  Spend  Sales    CTR    CVR    ACoS
 0  ProductA-Keyword         1200      60   45.0  140.0  0.0500 0.0833 0.3214
@@ -39,7 +38,6 @@ CampaignName    ACoS
 1  ProductB-Keyword  0.4267
 2  ProductC-Keyword  0.4091
 3  ProductD-Keyword  0.4615
-
 ```
 > 脚本自动识别ACoS＞0.3的广告，快速筛选需要优化的广告活动。
 
