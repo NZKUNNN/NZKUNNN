@@ -20,7 +20,7 @@
 Python, Pandas，CSV数据处理，纯本地离线分析，**无爬虫，全部使用模拟数据**
 
 ## 📋 运行输出示例
-'''
+```
 ======= 竞品数据汇总 =======
 统计竞品总数：10
 价格区间分布：
@@ -34,5 +34,5 @@ asin                                  title  price  star_rating  review_count  b
 1  B0XXXX0002  Portable Camping LED Light Waterproof  29.99          4.3           960      2100  Outdoor
 2  B0XXXX0005  Silicone Food Storage Bags Reusable    32.99          4.6          1650      1800  Kitchen
 
-'''
+```
 > 脚本自动筛选符合条件的对标竞品，帮助运营快速锁定需要重点研究的ASIN。
