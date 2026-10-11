@@ -24,5 +24,6 @@ Python、Pandas、CSV数据处理、跨境库存运营逻辑
 运行脚本后自动生成 `inventory_warn_chart.png`
 柱状图展示每个SKU库存周转天数，用不同颜色区分风险等级，同时绘制3条预警参考线，直观查看库存健康状态。
 
-![库存预警图](./inventory_warn_chart.png)
+![库存风险可视化图表](./inventory_warn_chart.png)
+
 
