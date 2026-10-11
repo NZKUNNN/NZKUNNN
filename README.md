@@ -1,29 +1,30 @@
-# 牛泽昆｜跨境电商运营 · 学习作品集
-> 211本科｜工程背景转行，目标岗位：亚马逊B2C运营
-> 擅长：业务流程梳理、风险管控、数据复盘，持续自学电商运营体系
+# 牛泽昆｜跨境亚马逊运营 作品集
+> 211土木工程本科，原工程技术部经理，转行自学亚马逊B2C跨境电商运营。
+> 本仓库用于沉淀电商业务学习笔记、广告数据分析实操项目，掌握平台基础逻辑、广告指标、数据复盘思路。
 
-## 📮 联系方式
-- 📱 电话：15054287355
-- 📧 Email：1124123096@qq.com
+## ✨ 个人简介
+拥有7年工程项目管理经验，擅长风险管控、成本核算、项目复盘、多方跨部门协调。
+自主系统学习跨境亚马逊运营，掌握Listing搭建、A9算法、FBA库存、账户健康、广告投放、竞品调研；自学Python基础，可使用pandas处理广告报表，自动计算广告KPI。
+求职方向：青岛 亚马逊跨境电商运营，期望薪资10K。
 
-## 🎯 求职意向
-亚马逊跨境电商运营｜青岛｜期望薪资：10K
+## 📁 仓库导航
+- [个人简历 resume.md](./resume.md)
+- 学习笔记 learn-notes
+  - [亚马逊平台基础学习笔记](./learn-notes/amazon-basic.md)
+  - [亚马逊广告基础概念笔记](./learn-notes/amazon-ad-analysis.md)
+  - [B2B/C2C/B2C电商业务对比笔记](./learn-notes/e-commerce-business.md)
+- 业务项目 project-demo
+  - [电商转化漏斗 & RFM用户分层分析](./project-demo/ecommerce-funnel.md)
+  - [开源商城后台业务模块学习（运营视角）](./project-demo/mall-system-note.md)
+- 📊 数据实操项目 ad-report-analysis
+  - [亚马逊广告报表自动化分析项目](./ad-report-analysis/README.md)
 
-## 📚 技能概览
-电商平台逻辑｜亚马逊Listing/A9/FBA/广告指标｜Python入门｜Excel数据分析｜英语四级
-证书：水利一级建造师，2项实用新型专利
+## 🛠️ 技能清单
+✅ 电商业务：亚马逊Listing、A9算法、FBA、账户健康、广告指标ACoS/CTR/CVR、竞品调研、B2B/B2C/C2C业务逻辑
+✅ 数据分析：Python基础、Pandas、CSV数据清洗、指标计算、Excel数据透视表
+✅ 工具：Markdown、Git/GitHub
+✅ 证书：一级建造师（水利水电），英语四级，3项工程类实用新型专利
 
-## 📂 仓库文档导航
-- [完整简历](./resume.md)
-- [亚马逊基础学习笔记](./learn-notes/amazon-basic.md)
-- [亚马逊广告报表分析学习笔记](./learn-notes/amazon-ad-analysis.md)
-- [电商业务知识（B2B/C2C/B2C）](./learn-notes/e-commerce-business.md)
-- [电商转化漏斗 & RFM用户分层复盘](./project-demo/ecommerce-funnel.md)
-- [开源商城业务模块学习笔记](./project-demo/mall-system-note.md)
-- [亚马逊广告报表自动化数据分析项目](./ad-report-analysis/README.md)
-
-
-## ✨ 自我介绍
-原工程技术管理岗位，具备项目统筹、风险识别、成本复盘经验。
-自主学习跨境电商亚马逊运营，通过研读开源电商项目，从**运营视角**理解商品、SKU、库存、订单、营销全链路；持续沉淀学习文档，建立运营数据分析思维。
-本仓库存放全部学习笔记与项目复盘，用于记录学习过程。
+## 📖 学习说明
+所有文档为转行自学过程的沉淀，理论结合轻量数据实操。
+广告分析项目聚焦**运营日常广告复盘场景**，不涉及复杂API开发，用来替代Excel重复计算，提升广告数据分析效率。
