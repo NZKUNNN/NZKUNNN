@@ -36,4 +36,3 @@ asin                                  title  price  star_rating  review_count  b
 
 '''
 > 脚本自动筛选符合条件的对标竞品，帮助运营快速锁定需要重点研究的ASIN。
-```
