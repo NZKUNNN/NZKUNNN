@@ -1,0 +1,5 @@
+# 小红书图文素材（本地产出，不上传 GitHub）
+xhs_images/
+
+# 小红书配图生成脚本（本地工具）
+gen_xhs_images*.py
