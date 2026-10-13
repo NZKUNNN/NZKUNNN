@@ -1,0 +1,105 @@
+<html style="margin:0;padding:0;">
+<title>机器学习学习全景图 v2</title>
+<div style="width:100%;box-sizing:border-box;background:#161b2c;color:#e6e9f2;font-family:'Microsoft YaHei',sans-serif;padding:28px 34px;">
+  <div style="font-size:26px;font-weight:bold;color:#ffd65a;text-align:center;margin-bottom:6px;">机器学习学习全景 v2：从数据到结论</div>
+  <div style="font-size:15px;color:#aab2c3;text-align:center;margin-bottom:20px;">方法按数据判断 · 模型和超参数要试 · 测试集定案</div>
+
+  <!-- 主流程 -->
+  <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 10px;margin-bottom:24px;">
+    <div style="background:#262e46;border:1px solid #3a4470;border-radius:10px;padding:9px 12px;font-weight:bold;font-size:15px;">① 数据</div>
+    <div style="color:#ffd65a;font-size:18px;">→</div>
+    <div style="background:#262e46;border:1px solid #3a4470;border-radius:10px;padding:9px 12px;font-weight:bold;font-size:15px;">② 清洗</div>
+    <div style="color:#ffd65a;font-size:18px;">→</div>
+    <div style="background:#262e46;border:1px solid #3a4470;border-radius:10px;padding:9px 12px;font-weight:bold;font-size:15px;">③ 特征</div>
+    <div style="color:#ffd65a;font-size:18px;">→</div>
+    <div style="background:#262e46;border:1px solid #3a4470;border-radius:10px;padding:9px 12px;font-weight:bold;font-size:15px;">④ 拆数据</div>
+    <div style="color:#ffd65a;font-size:18px;">→</div>
+    <div style="background:#262e46;border:1px solid #3a4470;border-radius:10px;padding:9px 12px;font-weight:bold;font-size:15px;">⑤ 选模型·调参</div>
+    <div style="color:#ffd65a;font-size:18px;">→</div>
+    <div style="background:#262e46;border:1px solid #3a4470;border-radius:10px;padding:9px 12px;font-weight:bold;font-size:15px;">⑥ 评估</div>
+    <div style="color:#ffd65a;font-size:18px;">→</div>
+    <div style="background:#3a4470;border:1px solid #ffd65a;border-radius:10px;padding:9px 14px;font-weight:bold;font-size:15px;color:#ffd65a;">结论</div>
+  </div>
+
+  <!-- 六环节对比卡片 -->
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
+    <!-- 1 特征 -->
+    <div style="background:#222b42;border:1px solid #39436e;border-radius:12px;padding:16px 18px;">
+      <div style="font-size:16px;font-weight:bold;color:#ffd65a;margin-bottom:10px;">③ 特征：干净 vs 泄漏</div>
+      <div style="font-size:14px;line-height:1.7;">
+        <div style="color:#6cd585;">✓ 干净（Impressions·CTR）弱相关 → 可信</div>
+        <div style="color:#ff7575;margin-top:4px;">✗ 泄漏（Clicks·Spend）相关0.9 → 虚高1.0</div>
+        <div style="color:#aab2c3;margin-top:8px;">特征越干净，越能反映真实预测力</div>
+      </div>
+    </div>
+    <!-- 2 拆数据 -->
+    <div style="background:#222b42;border:1px solid #39436e;border-radius:12px;padding:16px 18px;">
+      <div style="font-size:16px;font-weight:bold;color:#ffd65a;margin-bottom:10px;">④ 拆数据：本质=test锁死</div>
+      <div style="font-size:14px;line-height:1.7;">
+        <div>train 训练 · val 调参 · test 验收</div>
+        <div style="color:#6cd585;margin-top:4px;">test 锁死，最后只评一次</div>
+        <div style="color:#aab2c3;margin-top:6px;">val 可固定，也可用交叉验证承担</div>
+      </div>
+    </div>
+    <!-- 3 选模型 -->
+    <div style="background:#222b42;border:1px solid #ffd65a;border-radius:12px;padding:16px 18px;">
+      <div style="font-size:16px;font-weight:bold;color:#ffd65a;margin-bottom:10px;">⑤ 选模型：要「试」</div>
+      <div style="font-size:14px;line-height:1.7;">
+        <div>从简单到复杂试：</div>
+        <div style="color:#6cd585;margin-top:4px;">线性 → 决策树 → 随机森林</div>
+        <div style="color:#aab2c3;margin-top:6px;">看哪个在测试集上泛化好<br>（这是唯一要小范围试的）</div>
+      </div>
+    </div>
+    <!-- 4 调参 -->
+    <div style="background:#222b42;border:1px solid #39436e;border-radius:12px;padding:16px 18px;">
+      <div style="font-size:16px;font-weight:bold;color:#ffd65a;margin-bottom:10px;">⑤ 调参：可叠加</div>
+      <div style="font-size:14px;line-height:1.7;">
+        <div>手动改 / GridSearchCV / 正则化</div>
+        <div style="color:#ffd65a;margin-top:6px;">树模型 → 限制 max_depth</div>
+        <div style="color:#ffd65a;margin-top:4px;">线性过拟合 → 才用正则化</div>
+        <div style="color:#aab2c3;margin-top:6px;">不是三选一，可叠加</div>
+      </div>
+    </div>
+    <!-- 5 评估 -->
+    <div style="background:#222b42;border:1px solid #ffd65a;border-radius:12px;padding:16px 18px;">
+      <div style="font-size:16px;font-weight:bold;color:#ffd65a;margin-bottom:10px;">⑥ 评估：三档 + seed旋钮</div>
+      <div style="font-size:14px;line-height:1.7;">
+        <div style="color:#ff7575;">单次评估 → 固定seed，像抽奖</div>
+        <div style="color:#ffd65a;margin-top:4px;">交叉验证 → 轮流，省数据</div>
+        <div style="color:#6cd585;margin-top:4px;">重复评估 → 换seed，看波动</div>
+        <div style="color:#aab2c3;margin-top:6px;">seed 跟着评估走，不是独立选项</div>
+      </div>
+    </div>
+    <!-- 6 指标 -->
+    <div style="background:#222b42;border:1px solid #39436e;border-radius:12px;padding:16px 18px;">
+      <div style="font-size:16px;font-weight:bold;color:#ffd65a;margin-bottom:10px;">⑥ 指标：R² vs MAE</div>
+      <div style="font-size:14px;line-height:1.7;">
+        <div style="color:#ffd65a;">R² → 比瞎猜好了多少</div>
+        <div style="color:#6cd585;margin-top:4px;">MAE → 平均错多远</div>
+        <div style="color:#aab2c3;margin-top:8px;">一个看提升，一个看误差</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 该判断 vs 该试 -->
+  <div style="margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+    <div style="background:#232c47;border:1px solid #39436e;border-radius:12px;padding:14px 18px;">
+      <div style="font-size:16px;font-weight:bold;color:#6cd585;margin-bottom:8px;">✓ 该判断（按数据定，不搜）</div>
+      <div style="font-size:14px;color:#e6e9f2;line-height:1.8;">评估方式（数据少→交叉验证）<br>清洗 · 划分结构 · seed（跟着评估走）</div>
+    </div>
+    <div style="background:#232c47;border:1px solid #ffd65a;border-radius:12px;padding:14px 18px;">
+      <div style="font-size:16px;font-weight:bold;color:#ffd65a;margin-bottom:8px;">⚡ 该试 / 搜索</div>
+      <div style="font-size:14px;color:#e6e9f2;line-height:1.8;">选模型（线性→决策树→随机森林）<br>超参数（max_depth、n_estimators）</div>
+    </div>
+  </div>
+
+  <!-- 底部结论 -->
+  <div style="margin-top:20px;background:#2b3350;border:1px solid #ffd65a;border-radius:12px;padding:14px 18px;text-align:center;">
+    <div style="font-size:16px;font-weight:bold;color:#ffd65a;margin-bottom:6px;">评估逻辑三句话</div>
+    <div style="font-size:15px;color:#e6e9f2;line-height:1.8;">① test 锁死，调参不碰 → 定案真实<br>
+    ② train_val 反复用没关系，只要 test 干净<br>
+    ③ 看到分数问三件：样本够吗？测了几次？特征漏吗？<br>
+    <span style="color:#aab2c3;font-size:14px;">平均分 ± 标准差才算数 —— 数据驱动 · 动手实践 · 拒绝空谈</span></div>
+  </div>
+</div>
+</html>
